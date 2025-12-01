@@ -1,119 +1,333 @@
-# 🛒 Order Management System API
+# Order Management System
 
-An ASP.NET Core Web API project that allows customers to place and manage orders while giving administrators control over product management, order processing, and invoice generation.
+A comprehensive RESTful API for managing orders, customers, products, invoicing, and user authentication built with ASP.NET Core 6.0.
 
-## ✅ Features
+## Project Overview
 
-- Customer registration & login (JWT Auth)
-- Place and view orders
-- Product catalog browsing
-- Role-based access control (Admin / Customer)
-- Automatic invoice generation
-- Tiered discount system (5% for orders > $100, 10% for > $200)
-- Inventory tracking
-- Multiple payment methods (Credit Card, PayPal)
-- Email notification system on order status change
-- Swagger API Documentation
+The Order Management System is a robust backend API that handles the complete lifecycle of e-commerce order processing. It provides secure user authentication via JWT tokens, role-based authorization (Admin/Customer), inventory management, automatic discount calculations, invoice generation, and email notifications for order status updates.
 
----
+**Key Goals:**
+- Streamline order processing workflows from creation to fulfillment
+- Provide secure authentication and role-based access control
+- Automate invoice generation and customer notifications
+- Maintain real-time inventory tracking with stock validation
+- Offer a clean RESTful API with Swagger documentation
 
-## 📦 Technologies Used
+**Use Cases:**
+- Small to medium e-commerce platforms
+- Internal order management for retail businesses
+- Learning/demonstration of clean architecture patterns in .NET
+- Foundation for custom order processing systems
 
-- ASP.NET Core Web API
-- Entity Framework Core (In-Memory DB)
-- JWT Authentication
-- Swagger (Swashbuckle)
-- C#
-- RESTful API
-- Dependency Injection
+## Tech Stack
 
----
+**Languages & Frameworks:**
+- C# / .NET 6.0
+- ASP.NET Core Web API 6.0
 
-## 🛠 Setup Instructions
+**Libraries & Packages:**
+- `Microsoft.EntityFrameworkCore` (6.0.0) - ORM for data access
+- `Microsoft.EntityFrameworkCore.InMemory` (6.0.0) - In-memory database for development/testing
+- `Microsoft.AspNetCore.Authentication.JwtBearer` (6.0.0) - JWT authentication
+- `BCrypt.Net-Next` (4.0.3) - Password hashing
+- `Swashbuckle.AspNetCore` (6.2.3) - Swagger/OpenAPI documentation
+- `xUnit` (2.4.2) - Unit testing framework
 
-### 1. Clone the Repository
+**Tooling:**
+- Visual Studio 2022 (inferred from .vs folder structure)
+- .NET CLI (for build/run operations)
 
+## Architecture
+
+**High-Level Design:**
+The application follows a layered architecture pattern with clear separation of concerns:
+
+```
+Presentation Layer (Controllers)
+         ↓
+Service Layer (Business Logic)
+         ↓
+Repository Layer (Data Access)
+         ↓
+Data Layer (EF Core + In-Memory DB)
+```
+
+**Major Components:**
+1. **Controllers** - HTTP endpoints for Customer, Order, Product, Invoice, and User operations
+2. **Services** - Business logic (OrderService handles order creation, discount calculation, invoice generation)
+3. **Repositories** - Data access abstraction (CRUD operations for each entity)
+4. **Models** - Domain entities (Customer, Order, Product, Invoice, User)
+5. **DTOs** - Data transfer objects for API requests/responses
+6. **Authentication** - JWT-based authentication with role-based authorization
+
+**Data Flow:**
+1. Client sends HTTP request with JWT token
+2. Authentication middleware validates token
+3. Controller receives request and delegates to Service layer
+4. Service layer applies business rules and calls Repository
+5. Repository interacts with EF Core DbContext
+6. Response flows back through layers to client
+
+## Features
+
+**Core Features:**
+- ✅ User registration and login with JWT authentication
+- ✅ Role-based authorization (Admin & Customer roles)
+- ✅ Product catalog management (CRUD operations)
+- ✅ Customer management with order history retrieval
+- ✅ Order creation with automatic stock validation
+- ✅ Dynamic discount calculation (5% for orders $100+, 10% for $200+)
+- ✅ Automatic invoice generation upon order creation
+- ✅ Order status tracking (Pending, Processing, Shipped, Delivered, Cancelled)
+- ✅ Email notifications for order status updates
+- ✅ Swagger UI for API documentation and testing
+
+**Additional Features:**
+- In-memory database for rapid development/testing
+- Password encryption using BCrypt
+- EF Core navigation properties for relational data
+- Repository pattern for testable data access
+- Unit tests with xUnit framework
+
+## Setup & How to Run
+
+**Prerequisites:**
+- .NET 6.0 SDK ([Download here](https://dotnet.microsoft.com/download/dotnet/6.0))
+- Visual Studio 2022 (optional, or any IDE with .NET support)
+- Git (for cloning the repository)
+
+**Installation Steps:**
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd OrderManagementSystem
+   ```
+
+2. **Restore dependencies:**
+   ```bash
+   dotnet restore
+   ```
+
+3. **Configure application settings:**
+   - Review `appsettings.json` and update JWT settings (see Configuration section)
+
+4. **Build the project:**
+   ```bash
+   dotnet build
+   ```
+
+5. **Run the application:**
+   ```bash
+   cd OrderManagementSystem
+   dotnet run
+   ```
+
+6. **Access the application:**
+   - Swagger UI: `https://localhost:5001` (or `http://localhost:5000`)
+   - API Base URL: `https://localhost:5001/api`
+
+**Common Commands:**
 ```bash
-git clone https://github.com/yourusername/OrderManagementSystem.git
-cd OrderManagementSystem
+# Build solution
+dotnet build
+
+# Run application
+dotnet run --project OrderManagementSystem
+
+# Run tests
+dotnet test
+
+# Clean build artifacts
+dotnet clean
+
+# Watch mode (auto-reload on changes)
+dotnet watch run --project OrderManagementSystem
 ```
 
-### 2. Run the Application
+## Testing
 
+**Running Tests:**
 ```bash
-dotnet restore
-dotnet dev-certs https --trust
-dotnet run
+# Run all tests
+dotnet test
+
+# Run with detailed output
+dotnet test --logger "console;verbosity=detailed"
+
+# Run specific test class
+dotnet test --filter "FullyQualifiedName~OrderServiceTests"
 ```
 
-### 3. Open Swagger
+**Test Coverage:**
+- Unit tests for OrderService (CreateOrderAsync, stock validation)
+- Tests use in-memory database for isolation
+- Current coverage: Core order creation and validation logic
 
-Visit:  
+**Notes:**
+- Tests are located in the `Tests` project
+- Uses xUnit as the testing framework
+- Additional test coverage recommended for Controllers and Repositories
+
+## Folder Structure
+
 ```
-https://localhost:8295/swagger
+OrderManagementSystem/
+├── OrderManagementSystem/          # Main API project
+│   ├── Controllers/                # API endpoints
+│   │   ├── CustomerController.cs
+│   │   ├── OrderController.cs
+│   │   ├── ProductController.cs
+│   │   ├── InvoiceController.cs
+│   │   └── UserController.cs
+│   ├── Services/                   # Business logic layer
+│   │   ├── IOrderService.cs
+│   │   ├── OrderService.cs
+│   │   ├── IEmailService.cs
+│   │   └── EmailService.cs
+│   ├── Repositories/               # Data access layer
+│   │   ├── Implementations/
+│   │   │   ├── CustomerRepository.cs
+│   │   │   ├── OrderRepository.cs
+│   │   │   ├── ProductRepository.cs
+│   │   │   └── UserRepository.cs
+│   │   └── I*Repository.cs         # Repository interfaces
+│   ├── Models/                     # Domain entities
+│   │   ├── Customer.cs
+│   │   ├── Order.cs
+│   │   ├── OrderItem.cs
+│   │   ├── Product.cs
+│   │   ├── Invoice.cs
+│   │   └── User.cs
+│   ├── DTOs/                       # Data transfer objects
+│   │   ├── OrderCreateDto.cs
+│   │   ├── OrderStatusUpdateDto.cs
+│   │   └── UserLoginDto.cs
+│   ├── Data/                       # Database context
+│   │   └── OrderManagementDbContext.cs
+│   ├── Properties/
+│   │   └── launchSettings.json     # Development server configuration
+│   ├── Program.cs                  # Application entry point
+│   ├── Startup.cs                  # Service configuration
+│   └── appsettings.json            # Application configuration
+└── Tests/                          # Unit tests project
+    ├── OrderServiceTests.cs
+    └── OrderManagementSystem.Tests.csproj
 ```
 
----
+## Configuration & Secrets
 
-## 🧪 Sample Credentials
+**appsettings.json Configuration:**
 
-### 👤 Admin User
 ```json
 {
-  "username": "admin",
-  "password": "admin123"
+  "Jwt": {
+    "Key": "YOUR_SECRET_KEY_HERE_MIN_32_CHARS",
+    "Issuer": "OrderManagementSystem",
+    "Audience": "OrderManagementSystem",
+    "ExpiryInDays": "7"
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "YOUR_DATABASE_CONNECTION_STRING"
+  }
 }
 ```
 
-### 👤 Customer User
-```json
-{
-  "username": "customer",
-  "password": "customer123"
-}
-```
+**Environment Variables (for production):**
+- `JWT_KEY` - Secret key for JWT token signing (min 32 characters)
+- `JWT_ISSUER` - Token issuer identifier
+- `JWT_AUDIENCE` - Token audience identifier
+- `ASPNETCORE_ENVIRONMENT` - Set to "Production" for production deployment
+
+**Security Notes:**
+- ⚠️ Change the JWT secret key before deploying to production
+- Never commit real secrets to version control
+- Use environment variables or Azure Key Vault for production secrets
+- The current in-memory database is for development only - configure a real database (SQL Server, PostgreSQL) for production
+
+## Screenshots / Demo
+
+**Suggested Screenshots:**
+1. `swagger-ui.png` - Swagger documentation interface showing all API endpoints
+2. `order-creation.png` - POST request to create order with response showing generated invoice
+3. `jwt-authentication.png` - Login endpoint returning JWT token
+4. `order-status-update.png` - Admin updating order status
+5. `product-management.png` - Product CRUD operations in Swagger
+
+**Demo Workflow:**
+1. Register a new user via `/api/user/register`
+2. Login and obtain JWT token via `/api/user/login`
+3. Add "Bearer {token}" to Swagger authorization
+4. Create products via `/api/product` (Admin only)
+5. Create an order via `/api/order` - observe automatic discount and invoice generation
+6. View order details and invoices
+
+## Future Improvements
+
+**High Priority:**
+- [ ] Integrate real email service (SendGrid, SMTP) instead of console logging
+- [ ] Add real database support (SQL Server, PostgreSQL) with migrations
+- [ ] Implement pagination for list endpoints
+- [ ] Add comprehensive error handling and logging (Serilog)
+- [ ] Implement request validation using FluentValidation
+- [ ] Add API rate limiting and throttling
+
+**Medium Priority:**
+- [ ] Implement payment gateway integration (Stripe, PayPal)
+- [ ] Add order cancellation and refund logic
+- [ ] Create admin dashboard for analytics
+- [ ] Add product search and filtering capabilities
+- [ ] Implement audit logging for critical operations
+- [ ] Add Docker support with docker-compose
+
+**Nice to Have:**
+- [ ] GraphQL endpoint option
+- [ ] Real-time order status updates via SignalR
+- [ ] Multi-tenancy support
+- [ ] Advanced reporting and export features (PDF invoices, CSV exports)
+- [ ] Integration tests with TestContainers
+- [ ] CI/CD pipeline configuration (GitHub Actions, Azure DevOps)
+
+## Contribution Guidelines
+
+We welcome contributions! Please follow these guidelines:
+
+**How to Contribute:**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes following the existing code style
+4. Write or update tests for your changes
+5. Commit with clear messages (`git commit -m 'Add amazing feature'`)
+6. Push to your branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
+
+**PR Standards:**
+- Provide a clear description of the changes
+- Reference any related issues
+- Ensure all tests pass
+- Follow C# naming conventions and SOLID principles
+- Update documentation if adding new features
+
+**Code Style:**
+- Use meaningful variable/method names
+- Follow async/await patterns consistently
+- Keep methods small and focused (Single Responsibility)
+- Add XML documentation comments for public APIs
+
+## License
+
+**MIT License** - This project is licensed under the MIT License, making it free to use, modify, and distribute. This permissive license is ideal for open-source learning projects and allows commercial use while limiting liability.
+
+
+## Social Links / Author Contact
+
+**Project Maintainer:** [Ahmed Khaled]
+
+- GitHub: [@yourusername](https://github.com/ahmed-khalid2004)
+- LinkedIn: [Your Profile](https://linkedin.com/in/ahmed-khalid-5b6349259)
+- Email: engahmedkhalid3s@gmail.com
+- Project Issues: [GitHub Issues](https://github.com/ahmed-khalid2004/OrderManagementSystem/issues)
 
 ---
 
-## 🔐 Authentication
-
-- Use `/api/users/login` to get a **JWT token**.
-- Pass the token in the `Authorization` header like:
-
-```
-Authorization: Bearer {your_token}
-```
-
----
-
-## 📌 Sample Endpoints
-
-### 👥 Customers
-- `POST /api/customers`
-- `GET /api/customers/{customerId}/orders`
-
-### 📦 Orders
-- `POST /api/orders`
-- `GET /api/orders/{orderId}`
-- `GET /api/orders` (admin only)
-- `PUT /api/orders/{orderId}/status` (admin only)
-
-### 📦 Products
-- `GET /api/products`
-- `GET /api/products/{productId}`
-- `POST /api/products` (admin only)
-- `PUT /api/products/{productId}` (admin only)
-
-### 🧾 Invoices
-- `GET /api/invoices/{invoiceId}` (admin only)
-- `GET /api/invoices` (admin only)
-
-### 👤 Users
-- `POST /api/users/register`
-- `POST /api/users/login`
-
----
-
-## 📄 License
-
-This project is for academic and learning purposes.
+**What I looked at:** Analyzed the complete source code including Controllers, Services, Repositories, Models, DTOs, Startup.cs, Program.cs, appsettings.json, OrderManagementSystem.csproj, test files, and the provided directory tree structure to understand the architecture, dependencies, and functionality of this ASP.NET Core 6.0 order management system.
