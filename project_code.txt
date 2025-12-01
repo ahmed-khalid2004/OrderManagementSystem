@@ -1,0 +1,1579 @@
+﻿===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\.vs\OrderManagementSystem\v17\DocumentLayout.backup.json =====
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Startup.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Startup.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Startup.cs*",
+              "RelativeToolTip": "OrderManagementSystem\\Startup.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:59:57.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrderManagementSystem\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T13:47:34.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Program.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:34:16.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\.vs\OrderManagementSystem\v17\DocumentLayout.json =====
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C1D5F-9A2B-4D6C-87F0-4B9E2D1C5A8F}|Tests\\OrderManagementSystem.Tests.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\tests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8C1D5F-9A2B-4D6C-87F0-4B9E2D1C5A8F}|Tests\\OrderManagementSystem.Tests.csproj|solutionrelative:tests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\softlaptop\\downloads\\ordermanagementsystem\\ordermanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A4F9E2-7B3C-4F1A-8E9D-12F45A6B7C8D}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\Tests\\OrderServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\OrderServiceTests.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\Tests\\OrderServiceTests.cs",
+              "RelativeToolTip": "Tests\\OrderServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:14:54.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\appsettings.json",
+              "RelativeToolTip": "OrderManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T14:14:03.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Services\\IEmailService.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:13:51.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Services\\EmailService.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:13:44.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "OrderManagementSystem\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:11:54.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Startup.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Startup.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Startup.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Startup.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:59:57.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrderManagementSystem\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T13:47:34.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\Program.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:34:16.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\.vs\VSWorkspaceState.json =====
+{
+  "ExpandedNodes": [
+    "",
+    "\\OrderManagementSystem",
+    "\\Tests"
+  ],
+  "SelectedNode": "\\OrderManagementSystem\\OrderManagementSystem.sln",
+  "PreviewInSolutionExplorer": false
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\.vs\OrderManagementSystem\v17\DocumentLayout.backup.json =====
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\",
+  "Documents": [],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\.vs\OrderManagementSystem\v17\DocumentLayout.json =====
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem\\OrderManagementSystem\\",
+  "Documents": [],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\.vs\OrderManagementSystem (1)\v17\DocumentLayout.backup.json =====
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\DTOs\\UserLoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\UserLoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Data\\OrderManagementDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\OrderManagementDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\OrderController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\OrderController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\InvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\InvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T21:23:36.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderManagementDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Data\\OrderManagementDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\OrderManagementDbContext.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Data\\OrderManagementDbContext.cs",
+              "RelativeToolTip": "Data\\OrderManagementDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T21:23:33.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T21:23:29.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T21:23:28.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T21:23:26.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T21:23:19.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\.vs\OrderManagementSystem (1)\v17\DocumentLayout.json =====
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SoftLaptop\\Downloads\\OrderManagementSystem (1)\\",
+  "Documents": [],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\.vs\VSWorkspaceState.json =====
+{
+  "ExpandedNodes": [
+    "",
+    "\\Repositories\\Implementations"
+  ],
+  "PreviewInSolutionExplorer": false
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Controllers\CustomerController.cs =====
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OrderManagementSystem.Data.Repositories;
+using OrderManagementSystem.Models;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class CustomerController : ControllerBase
+    {
+        private readonly ICustomerRepository _customerRepository;
+
+        public CustomerController(ICustomerRepository customerRepository)
+        {
+            _customerRepository = customerRepository;
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Customer>> CreateCustomer(Customer customer)
+        {
+            var createdCustomer = await _customerRepository.CreateAsync(customer);
+            return CreatedAtAction(nameof(GetCustomerOrders), new { customerId = createdCustomer.CustomerId }, createdCustomer);
+        }
+
+        [HttpGet("{customerId}/orders")]
+        public async Task<ActionResult> GetCustomerOrders(int customerId)
+        {
+            var orders = await _customerRepository.GetOrdersByCustomerIdAsync(customerId);
+            return Ok(orders);
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Controllers\InvoiceController.cs =====
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Data;
+using OrderManagementSystem.Models;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize(Roles = "Admin")]
+    public class InvoiceController : ControllerBase
+    {
+        private readonly OrderManagementDbContext _context;
+
+        public InvoiceController(OrderManagementDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet("{invoiceId}")]
+        public async Task<ActionResult<Invoice>> GetInvoice(int invoiceId)
+        {
+            var invoice = await _context.Invoices
+                .Include(i => i.Order)
+                .ThenInclude(o => o.OrderItems)
+                .FirstOrDefaultAsync(i => i.InvoiceId == invoiceId);
+
+            if (invoice == null)
+                return NotFound();
+
+            return Ok(invoice);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> GetAllInvoices()
+        {
+            var invoices = await _context.Invoices
+                .Include(i => i.Order)
+                .ThenInclude(o => o.OrderItems)
+                .ToListAsync();
+
+            return Ok(invoices);
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Controllers\OrderController.cs =====
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OrderManagementSystem.Data.Repositories;
+using OrderManagementSystem.DTOs;
+using OrderManagementSystem.Models;
+using OrderManagementSystem.Services;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class OrderController : ControllerBase
+    {
+        private readonly IOrderRepository _orderRepository;
+        private readonly IOrderService _orderService;
+
+        public OrderController(IOrderRepository orderRepository, IOrderService orderService)
+        {
+            _orderRepository = orderRepository;
+            _orderService = orderService;
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Order>> CreateOrder(OrderCreateDto orderDto)
+        {
+            var order = await _orderService.CreateOrderAsync(orderDto);
+            return CreatedAtAction(nameof(GetOrder), new { orderId = order.OrderId }, order);
+        }
+
+        [HttpGet("{orderId}")]
+        public async Task<ActionResult<Order>> GetOrder(int orderId)
+        {
+            var order = await _orderRepository.GetByIdAsync(orderId);
+            if (order == null)
+                return NotFound();
+            return Ok(order);
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult> GetAllOrders()
+        {
+            var orders = await _orderRepository.GetAllAsync();
+            return Ok(orders);
+        }
+
+        [HttpPut("{orderId}/status")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> UpdateOrderStatus(int orderId, [FromBody] OrderStatusUpdateDto statusDto)
+        {
+            await _orderRepository.UpdateStatusAsync(orderId, statusDto.Status);
+            await _orderService.SendOrderStatusEmailAsync(orderId, statusDto.Status);
+            return NoContent();
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Controllers\ProductController.cs =====
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OrderManagementSystem.Data.Repositories;
+using OrderManagementSystem.Models;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class ProductController : ControllerBase
+    {
+        private readonly IProductRepository _productRepository;
+
+        public ProductController(IProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> GetAllProducts()
+        {
+            var products = await _productRepository.GetAllAsync();
+            return Ok(products);
+        }
+
+        [HttpGet("{productId}")]
+        public async Task<ActionResult<Product>> GetProduct(int productId)
+        {
+            var product = await _productRepository.GetByIdAsync(productId);
+            if (product == null)
+                return NotFound();
+            return Ok(product);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult<Product>> CreateProduct(Product product)
+        {
+            var createdProduct = await _productRepository.CreateAsync(product);
+            return CreatedAtAction(nameof(GetProduct), new { productId = createdProduct.ProductId }, createdProduct);
+        }
+
+        [HttpPut("{productId}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult<Product>> UpdateProduct(int productId, Product product)
+        {
+            if (productId != product.ProductId)
+                return BadRequest();
+
+            var updatedProduct = await _productRepository.UpdateAsync(product);
+            return Ok(updatedProduct);
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Controllers\UserController.cs =====
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using OrderManagementSystem.Data.Repositories;
+using OrderManagementSystem.DTOs;
+using OrderManagementSystem.Models;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using BCrypt.Net;
+
+namespace OrderManagementSystem.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UserController : ControllerBase
+    {
+        private readonly IUserRepository _userRepository;
+        private readonly IConfiguration _configuration;
+
+        public UserController(IUserRepository userRepository, IConfiguration configuration)
+        {
+            _userRepository = userRepository;
+            _configuration = configuration;
+        }
+
+        [HttpPost("register")]
+        public async Task<ActionResult> Register(User user)
+        {
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+            await _userRepository.CreateAsync(user);
+            return CreatedAtAction(nameof(Register), new { userId = user.UserId }, user);
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult> Login(UserLoginDto loginDto)
+        {
+            var user = await _userRepository.GetByUsernameAsync(loginDto.Username);
+            if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash))
+                return Unauthorized();
+
+            var token = GenerateJwtToken(user);
+            return Ok(new { Token = token });
+        }
+
+        private string GenerateJwtToken(User user)
+        {
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.Role, user.Role.ToString())
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var expiry = DateTime.Now.AddDays(Convert.ToDouble(_configuration["Jwt:ExpiryInDays"]));
+
+            var token = new JwtSecurityToken(
+                _configuration["Jwt:Issuer"],
+                _configuration["Jwt:Audience"],
+                claims,
+                expires: expiry,
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Data\OrderManagementDbContext.cs =====
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Models;
+
+namespace OrderManagementSystem.Data
+{
+    public class OrderManagementDbContext : DbContext
+    {
+        public OrderManagementDbContext(DbContextOptions<OrderManagementDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Invoice> Invoices { get; set; }
+        public DbSet<User> Users { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Order>()
+                .Property(o => o.Status)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Role)
+                .HasConversion<string>();
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\DTOs\OrderCreateDto.cs =====
+using System.Collections.Generic;
+
+namespace OrderManagementSystem.DTOs
+{
+    public class OrderCreateDto
+    {
+        public int CustomerId { get; set; }
+        public string PaymentMethod { get; set; }
+        public List<OrderItemDto> OrderItems { get; set; }
+    }
+
+    public class OrderItemDto
+    {
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\DTOs\OrderStatusUpdateDto.cs =====
+using OrderManagementSystem.Models;
+
+namespace OrderManagementSystem.DTOs
+{
+    public class OrderStatusUpdateDto
+    {
+        public OrderStatus Status { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\DTOs\UserLoginDto.cs =====
+namespace OrderManagementSystem.DTOs
+{
+    public class UserLoginDto
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Models\Customer.cs =====
+namespace OrderManagementSystem.Models
+{
+    public class Customer
+    {
+        public int CustomerId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public List<Order> Orders { get; set; } = new List<Order>();
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Models\Invoice.cs =====
+namespace OrderManagementSystem.Models
+{
+    public class Invoice
+    {
+        public int InvoiceId { get; set; }
+        public int OrderId { get; set; }
+        public DateTime InvoiceDate { get; set; }
+        public decimal TotalAmount { get; set; }
+        public Order Order { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Models\Order.cs =====
+namespace OrderManagementSystem.Models
+{
+    public enum OrderStatus
+    {
+        Pending,
+        Processing,
+        Shipped,
+        Delivered,
+        Cancelled
+    }
+
+    public class Order
+    {
+        public int OrderId { get; set; }
+        public int CustomerId { get; set; }
+        public DateTime OrderDate { get; set; }
+        public decimal TotalAmount { get; set; }
+        public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public string PaymentMethod { get; set; }
+        public OrderStatus Status { get; set; }
+        public Customer Customer { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Models\OrderItem.cs =====
+namespace OrderManagementSystem.Models
+{
+    public class OrderItem
+    {
+        public int OrderItemId { get; set; }
+        public int OrderId { get; set; }
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
+        public decimal UnitPrice { get; set; }
+        public decimal Discount { get; set; }
+        public Order Order { get; set; }
+        public Product Product { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Models\Product.cs =====
+namespace OrderManagementSystem.Models
+{
+    public class Product
+    {
+        public int ProductId { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public int Stock { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Models\User.cs =====
+namespace OrderManagementSystem.Models
+{
+    public enum Role
+    {
+        Admin,
+        Customer
+    }
+
+    public class User
+    {
+        public int UserId { get; set; }
+        public string Username { get; set; }
+        public string PasswordHash { get; set; }
+        public Role Role { get; set; }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Properties\launchSettings.json =====
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5000",
+      "sslPort": 5001
+    }
+  },
+  "profiles": {
+    "OrderManagementSystem": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\Implementations\CustomerRepository.cs =====
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public class CustomerRepository : ICustomerRepository
+    {
+        private readonly OrderManagementDbContext _context;
+
+        public CustomerRepository(OrderManagementDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<Customer> CreateAsync(Customer customer)
+        {
+            _context.Customers.Add(customer);
+            await _context.SaveChangesAsync();
+            return customer;
+        }
+
+        public async Task<List<Order>> GetOrdersByCustomerIdAsync(int customerId)
+        {
+            return await _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Product)
+                .Where(o => o.CustomerId == customerId)
+                .ToListAsync();
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\Implementations\OrderRepository.cs =====
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public class OrderRepository : IOrderRepository
+    {
+        private readonly OrderManagementDbContext _context;
+
+        public OrderRepository(OrderManagementDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<Order> CreateAsync(Order order)
+        {
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+            return order;
+        }
+
+        public async Task<Order> GetByIdAsync(int orderId)
+        {
+            return await _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Product)
+                .Include(o => o.Customer)
+                .FirstOrDefaultAsync(o => o.OrderId == orderId);
+        }
+
+        public async Task<List<Order>> GetAllAsync()
+        {
+            return await _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Product)
+                .Include(o => o.Customer)
+                .ToListAsync();
+        }
+
+        public async Task UpdateStatusAsync(int orderId, OrderStatus status)
+        {
+            var order = await _context.Orders.FindAsync(orderId);
+            if (order != null)
+            {
+                order.Status = status;
+                await _context.SaveChangesAsync();
+            }
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\Implementations\ProductRepository.cs =====
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public class ProductRepository : IProductRepository
+    {
+        private readonly OrderManagementDbContext _context;
+
+        public ProductRepository(OrderManagementDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<List<Product>> GetAllAsync()
+        {
+            return await _context.Products.ToListAsync();
+        }
+
+        public async Task<Product> GetByIdAsync(int productId)
+        {
+            return await _context.Products.FindAsync(productId);
+        }
+
+        public async Task<Product> CreateAsync(Product product)
+        {
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+            return product;
+        }
+
+        public async Task<Product> UpdateAsync(Product product)
+        {
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+            return product;
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\Implementations\UserRepository.cs =====
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Models;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public class UserRepository : IUserRepository
+    {
+        private readonly OrderManagementDbContext _context;
+
+        public UserRepository(OrderManagementDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<User> CreateAsync(User user)
+        {
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+            return user;
+        }
+
+        public async Task<User> GetByUsernameAsync(string username)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\ICustomerRepository.cs =====
+using OrderManagementSystem.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public interface ICustomerRepository
+    {
+        Task<Customer> CreateAsync(Customer customer);
+        Task<List<Order>> GetOrdersByCustomerIdAsync(int customerId);
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\IOrderRepository.cs =====
+using OrderManagementSystem.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public interface IOrderRepository
+    {
+        Task<Order> CreateAsync(Order order);
+        Task<Order> GetByIdAsync(int orderId);
+        Task<List<Order>> GetAllAsync();
+        Task UpdateStatusAsync(int orderId, OrderStatus status);
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\IProductRepository.cs =====
+using OrderManagementSystem.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public interface IProductRepository
+    {
+        Task<List<Product>> GetAllAsync();
+        Task<Product> GetByIdAsync(int productId);
+        Task<Product> CreateAsync(Product product);
+        Task<Product> UpdateAsync(Product product);
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Repositories\IUserRepository.cs =====
+using OrderManagementSystem.Models;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Data.Repositories
+{
+    public interface IUserRepository
+    {
+        Task<User> CreateAsync(User user);
+        Task<User> GetByUsernameAsync(string username);
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Services\EmailService.cs =====
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Services
+{
+    public class EmailService : IEmailService
+    {
+        public Task SendEmailAsync(string to, string subject, string body)
+        {
+            Console.WriteLine($"Sending email to {to}");
+            Console.WriteLine($"Subject: {subject}");
+            Console.WriteLine($"Body: {body}");
+            return Task.CompletedTask;
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Services\IEmailService.cs =====
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Services
+{
+    public interface IEmailService
+    {
+        Task SendEmailAsync(string to, string subject, string body);
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Services\IOrderService.cs =====
+using OrderManagementSystem.DTOs;
+using OrderManagementSystem.Models;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Services
+{
+    public interface IOrderService
+    {
+        Task<Order> CreateOrderAsync(OrderCreateDto orderDto);
+        Task<Invoice> GenerateInvoiceAsync(int orderId);
+        Task SendOrderStatusEmailAsync(int orderId, OrderStatus status);
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Services\OrderService.cs =====
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Data;
+using OrderManagementSystem.Data.Repositories;
+using OrderManagementSystem.DTOs;
+using OrderManagementSystem.Models;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace OrderManagementSystem.Services
+{
+    public class OrderService : IOrderService
+    {
+        private readonly IOrderRepository _orderRepository;
+        private readonly IProductRepository _productRepository;
+        private readonly IEmailService _emailService;
+        private readonly OrderManagementDbContext _context;
+
+        public OrderService(
+            IOrderRepository orderRepository,
+            IProductRepository productRepository,
+            IEmailService emailService,
+            OrderManagementDbContext context)
+        {
+            _orderRepository = orderRepository;
+            _productRepository = productRepository;
+            _emailService = emailService;
+            _context = context;
+        }
+
+        public async Task<Order> CreateOrderAsync(OrderCreateDto orderDto)
+        {
+            var order = new Order
+            {
+                CustomerId = orderDto.CustomerId,
+                OrderDate = DateTime.UtcNow,
+                PaymentMethod = orderDto.PaymentMethod,
+                Status = OrderStatus.Pending
+            };
+
+            decimal totalAmount = 0;
+            foreach (var item in orderDto.OrderItems)
+            {
+                var product = await _productRepository.GetByIdAsync(item.ProductId);
+                if (product == null)
+                    throw new Exception($"Product with ID {item.ProductId} not found");
+
+                if (product.Stock < item.Quantity)
+                    throw new Exception($"Insufficient stock for product {product.Name}");
+
+                var orderItem = new OrderItem
+                {
+                    ProductId = item.ProductId,
+                    Quantity = item.Quantity,
+                    UnitPrice = product.Price,
+                    Discount = CalculateDiscount(item.Quantity * product.Price)
+                };
+
+                product.Stock -= item.Quantity;
+                await _productRepository.UpdateAsync(product);
+
+                totalAmount += (item.Quantity * product.Price) - orderItem.Discount;
+                order.OrderItems.Add(orderItem);
+            }
+
+            order.TotalAmount = totalAmount;
+            await _orderRepository.CreateAsync(order);
+            await GenerateInvoiceAsync(order.OrderId);
+            await SendOrderStatusEmailAsync(order.OrderId, order.Status);
+
+            return order;
+        }
+
+        private decimal CalculateDiscount(decimal amount)
+        {
+            if (amount > 200)
+                return amount * 0.10m;
+            if (amount > 100)
+                return amount * 0.05m;
+            return 0;
+        }
+
+        public async Task<Invoice> GenerateInvoiceAsync(int orderId)
+        {
+            var order = await _orderRepository.GetByIdAsync(orderId);
+            if (order == null)
+                throw new Exception("Order not found");
+
+            var invoice = new Invoice
+            {
+                OrderId = orderId,
+                InvoiceDate = DateTime.UtcNow,
+                TotalAmount = order.TotalAmount,
+                Order = order
+            };
+
+            _context.Invoices.Add(invoice);
+            await _context.SaveChangesAsync();
+            return invoice;
+        }
+
+        public async Task SendOrderStatusEmailAsync(int orderId, OrderStatus status)
+        {
+            var order = await _orderRepository.GetByIdAsync(orderId);
+            if (order == null)
+                throw new Exception("Order not found");
+
+            var customer = await _context.Customers.FindAsync(order.CustomerId);
+            if (customer == null)
+                throw new Exception("Customer not found");
+
+            await _emailService.SendEmailAsync(
+                customer.Email,
+                $"Order {orderId} Status Update",
+                $"Your order status has been updated to {status}");
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\appsettings.json =====
+{
+  "Jwt": {
+    "Key": "YourSecretKeyHere1234567890",
+    "Issuer": "OrderManagementSystem",
+    "Audience": "OrderManagementSystem",
+    "ExpiryInDays": "7"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\OrderManagementSystem.csproj =====
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+	</ItemGroup>
+</Project>
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Program.cs =====
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+
+namespace OrderManagementSystem
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\OrderManagementSystem\Startup.cs =====
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using OrderManagementSystem.Data;
+using OrderManagementSystem.Data.Repositories;
+using OrderManagementSystem.Services;
+using System;
+using System.Text;
+
+namespace OrderManagementSystem
+{
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddDbContext<OrderManagementDbContext>(options =>
+                options.UseInMemoryDatabase("OrderManagementDb"));
+
+            services.AddControllers();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["Jwt:Issuer"],
+                        ValidAudience = Configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+                    };
+                });
+
+            services.AddAuthorization();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Order Management System", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please insert JWT with Bearer into field",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        Array.Empty<string>()
+                    }
+                });
+            });
+
+          
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+
+           
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IEmailService, EmailService>();
+        }
+
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Order Management System v1");
+                    c.RoutePrefix = string.Empty; 
+                });
+
+            }
+
+            app.UseHttpsRedirection();
+            app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+        }
+    }
+}
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\Tests\OrderManagementSystem.Tests.csproj =====
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagementSystem\OrderManagementSystem.csproj" />
+  </ItemGroup>
+</Project>
+===== C:\Users\SoftLaptop\Downloads\OrderManagementSystem\Tests\OrderServiceTests.cs =====
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Data;
+using OrderManagementSystem.Data.Repositories;
+using OrderManagementSystem.Models;
+using OrderManagementSystem.Services;
+using OrderManagementSystem.DTOs;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Xunit;
+
+namespace OrderManagementSystem.Tests
+{
+	public class OrderServiceTests
+	{
+		private readonly OrderManagementDbContext _context;
+		private readonly OrderService _orderService;
+		private readonly IOrderRepository _orderRepository;
+		private readonly IProductRepository _productRepository;
+		private readonly IEmailService _emailService;
+
+		public OrderServiceTests()
+		{
+			var options = new DbContextOptionsBuilder<OrderManagementDbContext>()
+				.UseInMemoryDatabase(databaseName: "TestDb")
+				.Options;
+
+			_context = new OrderManagementDbContext(options);
+			_orderRepository = new OrderRepository(_context);
+			_productRepository = new ProductRepository(_context);
+			_emailService = new EmailService();
+			_orderService = new OrderService(_orderRepository, _productRepository, _emailService, _context);
+		}
+
+		[Fact]
+		public async Task CreateOrderAsync_ValidOrder_ReturnsOrder()
+		{
+			// Arrange
+			var product = new Product { ProductId = 1, Name = "Test Product", Price = 100, Stock = 10 };
+			await _productRepository.CreateAsync(product);
+
+			var orderDto = new OrderCreateDto
+			{
+				CustomerId = 1,
+				PaymentMethod = "CreditCard",
+				OrderItems = new List<OrderItemDto>
+				{
+					new OrderItemDto { ProductId = 1, Quantity = 2 }
+				}
+			};
+
+			// Act
+			var order = await _orderService.CreateOrderAsync(orderDto);
+
+			// Assert
+			Assert.NotNull(order);
+			Assert.Equal(2, order.OrderItems.Count);
+			Assert.Equal(190, order.TotalAmount); // 200 - 10% discount
+		}
+
+		[Fact]
+		public async Task CreateOrderAsync_InsufficientStock_ThrowsException()
+		{
+			// Arrange
+			var product = new Product { ProductId = 1, Name = "Test Product", Price = 100, Stock = 1 };
+			await _productRepository.CreateAsync(product);
+
+			var orderDto = new OrderCreateDto
+			{
+				CustomerId = 1,
+				PaymentMethod = "CreditCard",
+				OrderItems = new List<OrderItemDto>
+				{
+					new OrderItemDto { ProductId = 1, Quantity = 2 }
+				}
+			};
+
+			// Act & Assert
+			await Assert.ThrowsAsync<Exception>(() => _orderService.CreateOrderAsync(orderDto));
+		}
+	}
+}
