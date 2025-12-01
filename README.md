@@ -323,8 +323,8 @@ We welcome contributions! Please follow these guidelines:
 
 **Project Maintainer:** [Ahmed Khaled]
 
-- GitHub: [@yourusername](https://github.com/ahmed-khalid2004)
-- LinkedIn: [Your Profile](https://linkedin.com/in/ahmed-khalid-5b6349259)
+- GitHub: [@AhmedKhalid2004](https://github.com/ahmed-khalid2004)
+- LinkedIn: [Ahmed Khaled](https://linkedin.com/in/ahmed-khalid-5b6349259)
 - Email: engahmedkhalid3s@gmail.com
 - Project Issues: [GitHub Issues](https://github.com/ahmed-khalid2004/OrderManagementSystem/issues)
 
