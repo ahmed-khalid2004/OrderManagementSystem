@@ -328,6 +328,9 @@ We welcome contributions! Please follow these guidelines:
 - Email: engahmedkhalid3s@gmail.com
 - Project Issues: [GitHub Issues](https://github.com/ahmed-khalid2004/OrderManagementSystem/issues)
 
+### Support
+If you find this project helpful, please ⭐ star the repository!
+
 ---
 
 **What I looked at:** Analyzed the complete source code including Controllers, Services, Repositories, Models, DTOs, Startup.cs, Program.cs, appsettings.json, OrderManagementSystem.csproj, test files, and the provided directory tree structure to understand the architecture, dependencies, and functionality of this ASP.NET Core 6.0 order management system.
